@@ -1,0 +1,42 @@
+#menu { 
+    color: white; 
+    border-radius: 25px;
+    background-color: black; 
+    list-style-type: none;
+    margin: 0px; 
+    padding: 0px; 
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.menu-link{ 
+    display: inline; 
+    margin: 50px; 
+    font-size: 20px;
+}
+
+.menu-link a { 
+color: white; 
+font-family: 'Courier New', monospace; 
+} 
+
+.menu-link a:hover{ 
+    background-color:#262626; 
+}
+
+footer { 
+    text-align: center;
+    font-family: 'Courier New', monospace; 
+}
+
+body { 
+    font-family: 'Courier New', monospace; 
+}
+
+img { 
+    border-radius: 25px;
+    width:  250px; 
+    
+    
+}
