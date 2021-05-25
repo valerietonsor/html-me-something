@@ -3,10 +3,12 @@
     border-radius: 25px;
     background-color: black; 
     list-style-type: none;
-    margin: 0px; 
+    margin: 10px; 
     padding: 0px; 
     text-align: center;
     overflow: hidden;
+
+
 
 }
 
@@ -18,7 +20,7 @@
 
 .menu-link a { 
 color: white; 
-font-family: 'Courier New', monospace; 
+font-family: 'Caveat', cursive;
 } 
 
 .menu-link a:hover{ 
@@ -27,16 +29,69 @@ font-family: 'Courier New', monospace;
 
 footer { 
     text-align: center;
-    font-family: 'Courier New', monospace; 
+    font-family: 'Caveat', cursive;
 }
 
 body { 
-    font-family: 'Courier New', monospace; 
+    font-family: 'Caveat', cursive;
 }
 
-img { 
+.photo { 
     border-radius: 25px;
-    width:  250px; 
+    border: 2px solid black; 
+    width: 400px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
     
     
 }
+
+.me { 
+    width: 100px; 
+    border-radius: 50%; 
+    border: 1px solid black;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover { 
+    font-weight: bold;
+   
+}
+
+a { 
+    color: blue; 
+} 
+
+h3 { 
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+
+h1 { 
+    font-size: 55px;
+    margin-bottom: 0px; 
+    margin-top: 2px; 
+   
+}
+
+button { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p { 
+    text-align: center;
+    font-size: 20px;
+}
+
+hr { 
+    color: black; 
+}
+
+
